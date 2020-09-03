@@ -1,2 +1,2 @@
-# lua
+# Scripts
 Simple lua scripts
