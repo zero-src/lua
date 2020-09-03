@@ -2,7 +2,7 @@ client.exec("clear")
 --------------------------------------------------------------------------------
 -- HTTP functions
 --------------------------------------------------------------------------------
-local LINK = "https://pastebin.com/raw/Sq7FNxhz"
+local LINK = "HIDDEN"
 local http = require "gamesense/http"
 local ffi = require("ffi")
 
@@ -103,8 +103,8 @@ end)
 -- Different script versions
 --------------------------------------------------------------------------------
 local get_lua_scripts = {
-    ["admin"] = 'https://pastebin.com/raw/L41Kbptb', 
-    ["beta"] = 'https://pastebin.com/raw/L41Kbptb', 
+    ["admin"] = 'HIDDEN', 
+    ["beta"] = 'HIDDEN', 
     ["premium"] = '', 
     ["NaN"] = '',
 }
