@@ -1,2 +1,2 @@
 # lua
-lua scripts for gideon
+Simple lua scripts
