@@ -40,8 +40,6 @@ local script = {
     max_time = 0,
 }
 
--- UI references
-
 -- ragebot features
 local rage_enabled = { ui_lib.reference('rage', 'aimbot', 'enabled') }
 local hitchance = ui.reference('rage', 'aimbot', 'minimum hit chance')
