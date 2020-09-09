@@ -47,13 +47,12 @@ http:get('https://ipv4.icanhazip.com/', function(response)
                 end
             end
         end
+	if user_db.active == nil or user_db.active == false or current_key == nil then
+        	user_db.username = "-"
+        	user_db.status = "-"
+        	client_log('PM administrator. Your key is: ' .. current_key) 
+    	end
     end)
-
-    if user_db.active == nil or user_db.active == false or current_key == nil then
-        user_db.username = "-"
-        user_db.status = "-"
-        client_log('PM administrator. Your key is: ' .. current_key) 
-    end
 end)
 
 --------------------------------------------------------------------------------
